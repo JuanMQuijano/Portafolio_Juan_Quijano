@@ -132,8 +132,44 @@ footer {
 }
 
 @media (min-width: 1140px) {
-    body {
-        background-color: blue;
+    .introduccion {
+        flex-direction: row;
+    }
+    .introduccion__texto {
+        width: 40rem;
+        font-size: 1.4rem;
+    }
+    .introduccion__imagen {
+        order: 0;
+        margin-left: 5rem;
+    }
+    .navegacion {
+        margin-bottom: 10rem;
+        height: 4rem;
+    }
+    .navegacion__enlace {
+        font-size: 1.8rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects {
+        margin-top: -1rem;
+    }
+    .about__titulo,
+    .projects__titulo {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .about__parrafo,
+    .projects__parrafo {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    footer {
+        margin-top: 25rem;
     }
 }
 
