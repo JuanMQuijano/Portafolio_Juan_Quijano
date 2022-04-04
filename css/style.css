@@ -133,9 +133,6 @@ footer {
 }
 
 @media (min-width: 1140px) {
-    .introduccion {
-        background-color: red;
-    }
     .introduccion__texto {
         width: 60rem;
         font-size: 1.6rem;
