@@ -89,15 +89,41 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 480px) {
-    body {
-        background-color: red;
-    }
-}
-
 @media (min-width: 768px) {
-    body {
-        background-color: black;
+    .introduccion {
+        flex-direction: row;
+    }
+    .introduccion__texto {
+        width: 40rem;
+        font-size: 1.4rem;
+    }
+    .introduccion__imagen {
+        order: 0;
+        margin-left: 5rem;
+    }
+    .navegacion {
+        margin-bottom: 10rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects {
+        margin-top: -1rem;
+    }
+    .about__titulo,
+    .projects__titulo {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .about__parrafo,
+    .projects__parrafo {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    footer {
+        margin-top: 25rem;
     }
 }
 
