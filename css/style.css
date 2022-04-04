@@ -103,6 +103,10 @@ footer {
     }
     .navegacion {
         margin-bottom: 10rem;
+        height: 4rem;
+    }
+    .navegacion__enlace {
+        font-size: 2rem;
     }
     main {
         display: grid;
