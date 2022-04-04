@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: rgba(8, 25, 48, 0.925);
+}
+
+.introduccion {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduccion__texto {
+    margin-top: 2rem;
+    width: 30rem;
+    font-size: 1.3rem;
+}
+
+.introduccion__imagen {
+    order: -1;
+    height: 15rem;
+    width: 15rem;
+    border: solid .1rem white;
+    border-radius: 10rem;
+    background-image: url('../media/IMG_4110.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.navegacion {
+    margin: 5rem auto;
+    max-width: 120rem;
+    width: 90%;
+    height: 4rem;
+    border: solid white .1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegacion__enlace {
+    font-size: 1.2rem;
+}
+
+.contenido {
+    margin: 0 auto;
+    max-width: 100rem;
+    width: 80%;
+    background: #000;
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 1140px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: green;
+    }
+}
