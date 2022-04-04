@@ -137,7 +137,7 @@ footer {
         font-size: 1.6rem;
     }
     .navegacion {
-        margin: 5rem;
+        margin: 20rem auto;
     }
     main {
         display: grid;
