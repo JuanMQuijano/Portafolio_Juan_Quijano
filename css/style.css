@@ -134,14 +134,10 @@ footer {
 @media (min-width: 1140px) {
     .introduccion__texto {
         width: 60rem;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .navegacion {
-        margin-bottom: 10rem;
-        height: 4rem;
-    }
-    .navegacion__enlace {
-        font-size: 1.8rem;
+        margin: 20rem;
     }
     main {
         display: grid;
