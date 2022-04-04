@@ -55,12 +55,30 @@ body {
     font-size: 1.2rem;
 }
 
-.contenido {
-    margin: 0 auto;
+.about,
+.projects {
+    margin: -1rem auto;
     max-width: 100rem;
-    width: 80%;
-    background: #000;
+    width: 90%;
+    border: .1rem solid white;
+    padding: 0 2rem;
+}
+
+.projects {
+    margin-top: 5rem;
+}
+
+.about__titulo,
+.projects__titulo {
+    font-size: 1.5rem;
     text-align: center;
+}
+
+.about__parrafo,
+.projects__parrafo {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
 }
 
 @media (min-width: 480px) {
