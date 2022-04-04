@@ -172,9 +172,3 @@ footer {
         margin-top: 25rem;
     }
 }
-
-@media (min-width: 1400px) {
-    body {
-        background-color: green;
-    }
-}
