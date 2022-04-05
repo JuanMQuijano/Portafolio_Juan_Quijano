@@ -151,7 +151,7 @@ footer {
         margin: 10rem auto;
     }
     .navegacion__enlace {
-        padding-right: 14rem;
+        margin-right: 14rem;
     }
     main {
         display: grid;
