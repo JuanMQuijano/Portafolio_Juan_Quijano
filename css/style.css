@@ -66,7 +66,7 @@ body {
 
 .about,
 .projects,
-.formulario {
+.formulario{
     margin: -1rem auto;
     max-width: 100rem;
     width: 90%;
@@ -93,6 +93,11 @@ body {
     text-align: justify;
 }
 
+.formulario{
+    margin: 5rem auto;
+    max-width: 120rem;    
+}
+
 footer {
     margin-top: 6rem;
     font-size: 2rem;
@@ -103,50 +108,53 @@ footer {
     .introduccion {
         flex-direction: row;
     }
+
     .introduccion__texto {
         margin-top: 0;
         width: 40rem;
         font-size: 1.4rem;
     }
+
     .introduccion__imagen {
         order: 0;
         margin-left: 5rem;
         box-shadow: black 1rem 1rem 2rem;
     }
+
     .navegacion {
         flex-direction: row;
         margin-bottom: 10rem;
         height: 4rem;
     }
+
     .navegacion__enlace {
         font-size: 1.8rem;
         border-bottom: none;
     }
-    main {
+
+    .aboutPro {
         display: grid;
-        grid-template-areas: "aboutme    projects  " ".          .         " ".          .         " ".          .         " "formulario formulario";
+        grid-template-columns: repeat(2,1fr);
     }
-    .about {
-        grid-area: "aboutme";
-    }
-    .projects {
-        grid-area: "projects";
+
+    .projects {        
         margin-top: -1rem;
     }
-    .formulario {
-        grid-area: "formulario";
-    }
+
+
     .about__titulo,
     .projects__titulo {
         font-size: 1.8rem;
         text-align: center;
     }
+
     .about__parrafo,
     .projects__parrafo {
         margin-top: 2rem;
         font-size: 1.5rem;
         text-align: justify;
     }
+
     footer {
         margin-top: 25rem;
     }
@@ -157,23 +165,28 @@ footer {
         width: 60rem;
         font-size: 1.8rem;
     }
+
     .navegacion {
         margin: 10rem auto;
     }
+
     .projects {
         margin-top: -1rem;
     }
+
     .about__titulo,
     .projects__titulo {
         font-size: 1.8rem;
         text-align: center;
     }
+
     .about__parrafo,
     .projects__parrafo {
         margin-top: 2rem;
         font-size: 1.8rem;
         text-align: justify;
     }
+
     footer {
         margin-top: 25rem;
     }
