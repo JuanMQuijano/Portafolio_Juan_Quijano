@@ -103,6 +103,7 @@ footer {
     .introduccion__imagen {
         order: 0;
         margin-left: 5rem;
+        box-shadow: black 1rem 1rem 2rem;
     }
     .navegacion {
         flex-direction: row;
