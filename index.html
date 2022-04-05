@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,33 +11,23 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
+<body>
     <div class="introduccion">
-      <p class="introduccion__texto">
-        ¡Hola! <br />
-        Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
-        actualmente (2022) tengo 21 años y soy estudiante de ingeniería
-        informática en la Institución Universitaria Colegio Mayor del Cauca, en
-        el año 2021 participé en el diplomado de Misión TIC en la Universidad de
-        Antioquia con énfasis en desarrollo web impulsado por el gobierno
-        nacional, si quieres ponerte en contacto conmigo te invito a que llenes
-        el formulario que encontraras en la parte inferior de esta página web.
-        ¡Hasta pronto!
-      </p>
-      <div class="introduccion__imagen"></div>
+        <p class="introduccion__texto">
+            ¡Hola! <br /> Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia, actualmente (2022) tengo 21 años y soy estudiante de ingeniería informática en la Institución Universitaria Colegio Mayor del Cauca, en el año 2021 participé
+            en el diplomado de Misión TIC en la Universidad de Antioquia con énfasis en desarrollo web impulsado por el gobierno nacional, si quieres ponerte en contacto conmigo te invito a que llenes el formulario que encontraras en la parte inferior
+            de esta página web. ¡Hasta pronto!
+        </p>
+        <div class="introduccion__imagen"></div>
     </div>
 
     <nav class="navegacion">
-      <a class="navegacion__enlace" href="https://www.youtube.com/">About Me</a>
-      <a class="navegacion__enlace" href="https://www.youtube.com/">Projects</a>
-      <a class="navegacion__enlace" href="https://www.youtube.com/"
-        >Get In Touch</a
+        <a class="navegacion__enlace" href="https://www.youtube.com/">About Me</a>
+        <a class="navegacion__enlace" href="https://www.youtube.com/">Projects</a>
+        <a class="navegacion__enlace" href="https://www.youtube.com/">Get In Touch</a
       >
     </nav>
 
@@ -73,35 +64,17 @@
         </section>
       </div>
 
-      <section class="formulario">
-        <h1 class="about__titulo">¡About Me!</h1>
-        <p class="about__parrafo">
-          ¡Hola! <br />
-          Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
-          actualmente (2022) tengo 21 años y soy estudiante de ingeniería
-          informática en la Institución Universitaria Colegio Mayor del Cauca,
-          en el año 2021 participé en el diplomado de Misión TIC en la
-          Universidad de Antioquia con énfasis en desarrollo web impulsado por
-          el gobierno nacional, si quieres ponerte en contacto conmigo te invito
-          a que llenes el formulario que encontraras en la parte inferior de
-          esta página web. ¡Hasta pronto! ¡Hola! <br />
-          Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
-          actualmente (2022) tengo 21 años y soy estudiante de ingeniería
-          informática en la Institución Universitaria Colegio Mayor del Cauca,
-          en el año 2021 participé en el diplomado de Misión TIC en la
-          Universidad de Antioquia con énfasis en desarrollo web impulsado por
-          el gobierno nacional, si quieres ponerte en contacto conmigo te invito
-          a que llenes el formulario que encontraras en la parte inferior de
-          esta página web. ¡Hasta pronto! ¡Hola! <br />
-          Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
-          actualmente (2022) tengo 21 años y soy estudiante de ingeniería
-          informática en la Institución Universitaria Colegio Mayor del Cauca,
-          en el año 2021 participé en el diplomado de Misión TIC en la
-          Universidad de Antioquia con énfasis en desarrollo web impulsado por
-          el gobierno nacional, si quieres ponerte en contacto conmigo te invito
-          a que llenes el formulario que encontraras en la parte inferior de
-          esta página web. ¡Hasta pronto!
-        </p>
+      <section class="contenedorFormulario">
+        <h1 class="contenedorFormulario__titulo">¡Get In Touch!</h1>
+
+        <form class="formulario" action="">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" />
+          <label for="email">Correo:</label>
+          <input type="email" id="email" />
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" cols="50" rows="10" />
+        </form>
       </section>
     </main>
     <footer>
