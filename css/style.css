@@ -124,7 +124,7 @@ footer {
     }
     main {
         display: grid;
-        grid-template-areas: "aboutme    projects  " ".          .         " "formulario formulario";
+        grid-template-areas: "aboutme    projects  " ".          .         " ".          .         " ".          .         " "formulario formulario";
     }
     .about {
         grid-area: "aboutme";
