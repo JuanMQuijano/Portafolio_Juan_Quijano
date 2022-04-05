@@ -43,10 +43,11 @@ body {
     margin: 5rem auto;
     max-width: 100rem;
     width: 80%;
-    height: 2.8rem;
+    /* height: 2.8rem; */
     border: solid white .1rem;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -54,8 +55,6 @@ body {
 .navegacion__enlace {
     text-decoration: none;
     font-size: 1.2rem;
-    border-right: .2rem solid white;
-    padding-right: 15rem;
 }
 
 .navegacion__enlace:last-of-type {
@@ -111,11 +110,14 @@ footer {
         margin-left: 5rem;
     }
     .navegacion {
+        flex-direction: row;
         margin-bottom: 10rem;
         height: 4rem;
     }
     .navegacion__enlace {
         font-size: 1.8rem;
+        border-right: .2rem solid white;
+        padding-right: 10rem;
     }
     main {
         display: grid;
@@ -147,6 +149,9 @@ footer {
     }
     .navegacion {
         margin: 10rem auto;
+    }
+    .navegacion__enlace {
+        padding-right: 14rem;
     }
     main {
         display: grid;
