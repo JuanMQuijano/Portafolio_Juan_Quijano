@@ -33,10 +33,6 @@ body {
     width: 15rem;
     border: solid .1rem white;
     border-radius: 10rem;
-    background-image: url('../media/IMG_4110.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
 }
 
 .navegacion {
