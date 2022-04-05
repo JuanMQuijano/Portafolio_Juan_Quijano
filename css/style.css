@@ -41,6 +41,7 @@ body {
 
 .navegacion {
     margin: 5rem auto;
+    border-radius: .5rem;
     max-width: 100rem;
     width: 80%;
     /* height: 2.8rem; */
@@ -53,8 +54,14 @@ body {
 }
 
 .navegacion__enlace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
     text-decoration: none;
     font-size: 1.2rem;
+    border-bottom: .1rem solid rgba(221, 215, 215, 0.342);
+    width: 100%;
 }
 
 .about,
@@ -112,6 +119,7 @@ footer {
     }
     .navegacion__enlace {
         font-size: 1.8rem;
+        border-bottom: none;
     }
     main {
         display: grid;
