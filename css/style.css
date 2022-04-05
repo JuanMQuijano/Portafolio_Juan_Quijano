@@ -65,7 +65,8 @@ body {
 }
 
 .about,
-.projects {
+.projects,
+.formulario {
     margin: -1rem auto;
     max-width: 100rem;
     width: 90%;
@@ -123,10 +124,17 @@ footer {
     }
     main {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "aboutme    projects  " ".          .         " "formulario formulario";
+    }
+    .about {
+        grid-area: "aboutme";
     }
     .projects {
+        grid-area: "projects";
         margin-top: -1rem;
+    }
+    .formulario {
+        grid-area: "formulario";
     }
     .about__titulo,
     .projects__titulo {
@@ -151,10 +159,6 @@ footer {
     }
     .navegacion {
         margin: 10rem auto;
-    }
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
     .projects {
         margin-top: -1rem;
