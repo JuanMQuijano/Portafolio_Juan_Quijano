@@ -117,7 +117,7 @@ footer {
     .navegacion__enlace {
         font-size: 1.8rem;
         border-right: .2rem solid white;
-        margin-right: 10rem;
+        margin-right: 100rem;
     }
     main {
         display: grid;
