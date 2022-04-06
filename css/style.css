@@ -141,6 +141,10 @@ body {
     width: 5rem;
 }
 
+.formulario__boton:hover {
+    cursor: pointer;
+}
+
 footer {
     margin-top: 5rem;
     font-size: 2rem;
