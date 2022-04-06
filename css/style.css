@@ -155,6 +155,17 @@ footer {
     text-align: center;
 }
 
+.contenedorAlerta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.alerta__texto {
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
 .footer__lista {
     display: flex;
     justify-content: center;
