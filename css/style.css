@@ -142,7 +142,7 @@ body {
 }
 
 footer {
-    margin-top: 6rem;
+    margin-top: 5rem;
     font-size: 2rem;
     text-align: center;
 }
@@ -206,9 +206,6 @@ footer {
     .formulario__boton {
         font-size: 1.5rem;
     }
-    footer {
-        margin-top: 25rem;
-    }
 }
 
 @media (min-width: 1140px) {
@@ -247,8 +244,5 @@ footer {
     .formulario__boton {
         width: 10rem;
         margin-top: 2rem;
-    }
-    footer {
-        margin-top: 5rem;
     }
 }
