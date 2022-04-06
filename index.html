@@ -25,15 +25,15 @@
     </div>
 
     <nav class="navegacion">
-        <a class="navegacion__enlace" href="https://www.youtube.com/">About Me</a>
-        <a class="navegacion__enlace" href="https://www.youtube.com/">Projects</a>
-        <a class="navegacion__enlace" href="https://www.youtube.com/">Get In Touch</a
+        <a class="navegacion__enlace" href="#about">About Me</a>
+        <a class="navegacion__enlace" href="#project">Projects</a>
+        <a class="navegacion__enlace" href="#form">Get In Touch</a
       >
     </nav>
 
     <main>
       <div class="aboutPro">
-        <section class="about">
+        <section class="about" id="about">
           <h1 class="about__titulo">¡About Me!</h1>
           <p class="about__parrafo">
             ¡Hola! <br />
@@ -48,40 +48,58 @@
           </p>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
           <h1 class="projects__titulo">¡Projects!</h1>
           <p class="projects__parrafo">
-            ¡Hola! <br />
-            Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
-            actualmente (2022) tengo 21 años y soy estudiante de ingeniería
-            informática en la Institución Universitaria Colegio Mayor del Cauca,
-            en el año 2021 participé en el diplomado de Misión TIC en la
-            Universidad de Antioquia con énfasis en desarrollo web impulsado por
-            el gobierno nacional, si quieres ponerte en contacto conmigo te
-            invito a que llenes el formulario que encontraras en la parte
-            inferior de esta página web. ¡Hasta pronto!
+            En esta sección podrás conocer un poco más de mis proyectos, te
+            invito a que navegues por las siguientes páginas web que he
+            desarrollado haciendo uso de las mejores practicas:
           </p>
+          <ol class="projects__list">
+            <li class="projects__list--li">
+              <a href="https://eager-clarke-9c3a8e.netlify.app/index.html"
+                >Blog de Café ☕</a
+              >
+            </li>
+            <li class="projects__list--li">
+              <a href="https://boisterous-79047b.netlify.app/"
+                >ROCK & EDM Festival 🤘🏻</a
+              >
+            </li>
+          </ol>
         </section>
       </div>
 
-      <section class="contenedorFormulario">
+      <section class="contenedorFormulario" id="form">
         <h1 class="contenedorFormulario__titulo">¡Get In Touch!</h1>
 
         <form class="formulario">
           <div>
             <p class="formulario__etiqueta" for="nombre">Nombre Completo:</p>
-            <input class="formulario__input" type="text" id="nombre"  placeholder="Aquí tú Nombre"/>
+            <input
+              class="formulario__input"
+              type="text"
+              id="nombre"
+              placeholder="Aquí tú Nombre"
+            />
           </div>
           <div>
             <p class="formulario__etiqueta" for="email">Correo:</p>
-            <input class="formulario__input" type="email" id="email"  placeholder="Aquí tú Correo"/>
+            <input
+              class="formulario__input"
+              type="email"
+              id="email"
+              placeholder="Aquí tú Correo"
+            />
           </div>
           <div class="formulario__textarea--contenedor">
-            <p for="mensaje" class="formulario__etiqueta">Mensaje:</p>            
-            <textarea class="formulario__textarea"
+            <p for="mensaje" class="formulario__etiqueta">Mensaje:</p>
+            <textarea
+              class="formulario__textarea"
               name="mensaje"
               id="mensaje"
-              rows="5" placeholder="Aquí tú Mensaje"
+              rows="5"
+              placeholder="Aquí tú Mensaje"
             ></textarea>
           </div>
           <input class="formulario__boton" type="button" value="Envíar" />

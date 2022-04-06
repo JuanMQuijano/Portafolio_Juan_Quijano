@@ -94,6 +94,20 @@ body {
     text-align: justify;
 }
 
+.projects__list {
+    list-style: none;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.projects__list--li {
+    font-size: 1.5rem;
+}
+
+.projects__list--li>a {
+    color: cornflowerblue
+}
+
 .contenedorFormulario {
     margin: 5rem auto;
     max-width: 120rem;
@@ -178,6 +192,15 @@ footer {
         font-size: 1.5rem;
         text-align: justify;
     }
+    .projects__list--li {
+        font-size: 2rem;
+    }
+    .formulario__etiqueta,
+    .formulario__input,
+    .formulario__textarea,
+    .formulario__boton {
+        font-size: 1.5rem;
+    }
     footer {
         margin-top: 25rem;
     }
@@ -205,6 +228,9 @@ footer {
         margin-top: 2rem;
         font-size: 1.8rem;
         text-align: justify;
+    }
+    .projects__list--li {
+        font-size: 2.5rem;
     }
     .formulario {
         font-size: 3rem;
