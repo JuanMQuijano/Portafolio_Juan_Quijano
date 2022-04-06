@@ -103,7 +103,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+.formulario__etiqueta {
+    margin-top: 1rem;
+}
+
+.formulario__input {
+    width: 100%;
+    color: black;
+}
+
+.formulario__textarea--contenedor {
+    margin-top: 1rem;
+}
+
+.formulario__textarea {
+    width: 100%;
+    color: black;
+}
+
+.formulario__boton {
+    color: black;
+    margin: 1rem auto;
+    width: 5rem;
 }
 
 footer {
