@@ -66,6 +66,7 @@ body {
     font-size: 1.2rem;
     border-bottom: .1rem solid rgba(221, 215, 215, 0.342);
     width: 100%;
+    margin: 2rem 0;
 }
 
 .about,
@@ -104,10 +105,13 @@ body {
     text-align: center;
 }
 
+.projects__list--li{
+    margin-top: 2rem;
+}
+
 .projects__list--li>a {
     color: cornflowerblue;
-    font-size: 1.5rem;
-    margin-top: 200rem;
+    font-size: 1.5rem;    
 }
 
 .contenedorFormulario {
