@@ -168,7 +168,7 @@ footer {
     text-align: center;
 }
 
-.contenedorAlerta {
+.contenedorAlerta {    
     display: flex;
     justify-content: center;
     text-align: center;
@@ -190,9 +190,8 @@ footer {
     .introduccion {
         flex-direction: row;
     }
-    .introduccion__texto {
-        margin-top: 0;
-        width: 40rem;
+    .introduccion__texto {           
+        max-width: 40rem;        
         font-size: 1.4rem;
     }
     .introduccion__imagen {
@@ -243,8 +242,8 @@ footer {
 }
 
 @media (min-width: 1140px) {
-    .introduccion__texto {
-        width: 60rem;
+    .introduccion__texto {              
+        max-width: 60rem;
         font-size: 1.8rem;
     }
     .navegacion {
