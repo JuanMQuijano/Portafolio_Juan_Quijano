@@ -36,7 +36,7 @@ let enviar =
             mensajeAlerta = "Mensaje enviado";
 
             generarMensaje(mensajeAlerta);
-            limpiarCampos();
+            limpiarCampos();            
         }
     });
 
@@ -61,5 +61,6 @@ function limpiarCampos() {
     inputNombre.value = '';
     inputCorreo.value = '';
     inputMensaje.value = '';
+    location.reload();
     },5000)
 }
