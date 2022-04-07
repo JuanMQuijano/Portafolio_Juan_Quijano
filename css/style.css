@@ -27,7 +27,8 @@ body {
 
 .introduccion__texto {
     margin-top: 2rem;
-    width: 30rem;
+    width: 80%;
+    max-width: 30rem;
     font-size: 1.3rem;
 }
 
