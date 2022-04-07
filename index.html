@@ -70,42 +70,39 @@
       <section class="contenedorFormulario" id="form">
         <h1 class="contenedorFormulario__titulo">¡Get In Touch!</h1>
 
-        <form class="formulario">
-          <div>
-            <p class="formulario__etiqueta" for="nombre">Nombre Completo:</p>
+        <form class="formulario">          
+          <div class="separador">
+            <label class="formulario__etiqueta" for="Nombre">Nombre Completo:</label>
             <input
               id="Nombre"
               class="formulario__input"
-              type="text"
-              id="nombre"
+              type="text"              
               placeholder="Aquí tú Nombre"
               required
             />
           </div>
-          <div>
-            <p class="formulario__etiqueta" for="email">Correo:</p>
+          <div class="separador">
+            <label class="formulario__etiqueta separador"for="Correo">Correo:</label>
             <input
               id="Correo"
               class="formulario__input"
-              type="email"
-              id="email"
+              type="email"              
               placeholder="Aquí tú Correo"
               required
             />
           </div>
           <div class="formulario__textarea--contenedor">
-            <p for="mensaje" class="formulario__etiqueta">Mensaje:</p>
+            <label for="Mensaje" class="formulario__etiqueta">Mensaje:</label>
             <textarea
               id="Mensaje"
               class="formulario__textarea"
-              name="mensaje"
-              id="mensaje"
+              name="mensaje"              
               rows="5"
               placeholder="Aquí tú Mensaje"
               required
             ></textarea>
           </div>
-          <input class="formulario__boton" type="button" value="Envíar" />
+          <input class="formulario__boton" type="button" value="Envíar" />        
         </form>
       </section>
     </main>

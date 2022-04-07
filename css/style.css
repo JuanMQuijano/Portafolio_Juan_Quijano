@@ -118,21 +118,27 @@ body {
 .formulario {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
 }
 
-.formulario__etiqueta {
-    margin-top: 1rem;
-    font-size: 1rem;
+.separador{
+    margin-top: .5rem;
+}
+
+.formulario__etiqueta {    
+    font-size: 1.3rem;
 }
 
 .formulario__input {
+    
+    font-size: 1.3rem;
     width: 100%;
     color: black;
 }
 
 .formulario__textarea--contenedor {
     margin-top: 1rem;
+    font-size: 1.3rem;
 }
 
 .formulario__textarea {
@@ -142,7 +148,10 @@ body {
 
 .formulario__boton {
     color: black;
-    margin: 1rem auto;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 5rem;
 }
 
