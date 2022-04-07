@@ -41,7 +41,6 @@ let enviar =
 
 function leerInputs(e) {
     datos[e.target.id] = e.target.value;
-    console.log(datos);
 }
 
 function generarMensaje(mensaje) {
