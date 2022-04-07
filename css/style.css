@@ -47,10 +47,9 @@ body {
 .navegacion {
     margin: 5rem auto;
     border-radius: .5rem;
-    max-width: 100rem;
     width: 80%;        
+    max-width: 120rem;
     border: solid white .1rem;
-    max-width: 100%;
     display: flex;
     flex-direction: column;    
 }
@@ -203,7 +202,7 @@ footer {
         justify-content: space-evenly;
         align-items: center;
         margin-bottom: 10rem;
-        height: 4rem;        
+        height: 4rem;                
     }
     .navegacion__enlace {                
         font-size: 1.8rem;                
