@@ -25,10 +25,10 @@ body {
     justify-content: center;
 }
 
-.introduccion__texto {
+.introduccion__texto {    
     margin-top: 2rem;
     width: 80%;
-    max-width: 30rem;
+    max-width: 30rem;    
     font-size: 1.3rem;
 }
 
@@ -48,7 +48,7 @@ body {
     margin: 5rem auto;
     border-radius: .5rem;
     max-width: 100rem;
-    width: 80%;    
+    width: 80%;        
     border: solid white .1rem;
     max-width: 100%;
     display: flex;
