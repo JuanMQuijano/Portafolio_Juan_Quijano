@@ -1,35 +1,61 @@
-let inputNombre = document.getElementById('Nombre');
-const inputCorreo = document.getElementById('Correo');
-const inputMensaje = document.getElementById('Mensaje');
-let button = document.querySelector('.formulario__boton');
+let formulario = document.querySelector('.formulario');
+let inputNombre = document.getElementById("Nombre");
+let inputCorreo = document.getElementById("Correo");
+let inputMensaje = document.getElementById("Mensaje");
+let button = document.querySelector(".formulario__boton");
+let contenedorAlerta = document.createElement("div");
+contenedorAlerta.classList.add("contenedorAlerta");
+let alerta = document.createElement("P");
+alerta.classList.add('alerta__mensaje')
 
 const datos = {
-    Nombre: '',
-    Correo: '',
-    Mensaje: ''
-}
+    Nombre: "",
+    Correo: "",
+    Mensaje: "",
+};
 
-inputNombre.addEventListener('input', leerInputs);
-inputCorreo.addEventListener('input', leerInputs);
-inputMensaje.addEventListener('input', leerInputs);
+inputNombre.addEventListener("input", leerInputs);
+inputCorreo.addEventListener("input", leerInputs);
+inputMensaje.addEventListener("input", leerInputs);
 
-
-button.addEventListener('click', (e) => {
+button.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log(inputNombre);
-})
+    const { Nombre, Correo, Mensaje } = datos;
+    let mensajeAlerta;
+
+    if (Nombre === "" || Correo === "" || Mensaje == "") {
+        mensajeAlerta = "Debes completar el formulario";
+
+        generarMensaje(mensajeAlerta);
+    } else if (!Correo.includes("@")) {
+        mensajeAlerta = "Por favor revisa tu correo";
+
+        generarMensaje(mensajeAlerta);
+    } else {
+        mensajeAlerta = "Mensaje enviado";
+
+        generarMensaje(mensajeAlerta);
+    }
+});
 
 function leerInputs(e) {
     datos[e.target.id] = e.target.value;
     console.log(datos);
 }
 
-function validarFormulario(e) {
-    e.preventDefault();
+function generarMensaje(mensaje) {
+    alerta.textContent = mensaje;
+    contenedorAlerta.appendChild(alerta);
+    formulario.appendChild(contenedorAlerta);
 
-    const { Nombre, Correo, Mensaje } = datos;
+    setTimeout(() => {
+        alerta.remove();
+        limpiarCampos();
+    }, 5000);
+}
 
-    if (Nombre === "" || Correo === "" || Mensaje == "") {
-
-    }
+function limpiarCampos() {
+    inputNombre.value = '';
+    inputCorreo.value = '';
+    inputMensaje.value = '';
 }

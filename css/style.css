@@ -161,9 +161,8 @@ footer {
     text-align: center;
 }
 
-.alerta__texto {
-    width: 20rem;
-    font-size: 1.5rem;
+.alerta__mensaje {
+    font-size: 1.3rem;
 }
 
 .footer__lista {
@@ -225,6 +224,9 @@ footer {
     .formulario__boton {
         font-size: 1.5rem;
     }
+    .alerta__mensaje {
+        font-size: 1.6rem;
+    }
 }
 
 @media (min-width: 1140px) {
@@ -253,15 +255,20 @@ footer {
     .projects__list--li>a {
         font-size: 2rem;
     }
-    .formulario {
-        font-size: 3rem;
+    .formulario__etiqueta {
+        font-size: 2rem;
     }
     .formulario__input,
-    .formulario__boton {
+    .formulario__boton,
+    .formulario__textarea {
+        font-size: 2rem;
         color: black;
     }
     .formulario__boton {
         width: 10rem;
         margin-top: 2rem;
+    }
+    .alerta__mensaje {
+        font-size: 2rem;
     }
 }
