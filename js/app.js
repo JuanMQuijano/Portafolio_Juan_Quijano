@@ -56,7 +56,10 @@ function generarMensaje(mensaje) {
 }
 
 function limpiarCampos() {
+
+    setTimeout(()=>{
     inputNombre.value = '';
     inputCorreo.value = '';
     inputMensaje.value = '';
+    },5000)
 }
