@@ -18,25 +18,26 @@ inputNombre.addEventListener("input", leerInputs);
 inputCorreo.addEventListener("input", leerInputs);
 inputMensaje.addEventListener("input", leerInputs);
 
-button.addEventListener("click", (e) => {
-    e.preventDefault();
-    const { Nombre, Correo, Mensaje } = datos;
-    let mensajeAlerta;
+let enviar =
+    button.addEventListener("click", (e) => {
+        e.preventDefault();
+        let { Nombre, Correo, Mensaje } = datos;
+        let mensajeAlerta;
 
-    if (Nombre === "" || Correo === "" || Mensaje == "") {
-        mensajeAlerta = "Debes completar el formulario";
+        if (Nombre === "" || Correo === "" || Mensaje == "") {
+            mensajeAlerta = "Debes completar el formulario";
 
-        generarMensaje(mensajeAlerta);
-    } else if (!Correo.includes("@")) {
-        mensajeAlerta = "Por favor revisa tu correo";
+            generarMensaje(mensajeAlerta);
+        } else if (!Correo.includes("@")) {
+            mensajeAlerta = "Por favor revisa tu correo";
 
-        generarMensaje(mensajeAlerta);
-    } else {
-        mensajeAlerta = "Mensaje enviado";
+            generarMensaje(mensajeAlerta);
+        } else {
+            mensajeAlerta = "Mensaje enviado";
 
-        generarMensaje(mensajeAlerta);
-    }
-});
+            generarMensaje(mensajeAlerta);
+        }
+    });
 
 function leerInputs(e) {
     datos[e.target.id] = e.target.value;
@@ -58,9 +59,4 @@ function limpiarCampos() {
     inputNombre.value = '';
     inputCorreo.value = '';
     inputMensaje.value = '';
-
-    inputNombre.textContent = '';
-    inputCorreo.textContent = '';
-    inputMensaje.textContent = '';
-
 }
