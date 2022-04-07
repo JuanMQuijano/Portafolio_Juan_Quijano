@@ -36,6 +36,7 @@ let enviar =
             mensajeAlerta = "Mensaje enviado";
 
             generarMensaje(mensajeAlerta);
+            limpiarCampos();
         }
     });
 
@@ -51,7 +52,6 @@ function generarMensaje(mensaje) {
 
     setTimeout(() => {
         alerta.remove();
-        limpiarCampos();
     }, 5000);
 }
 
