@@ -58,4 +58,9 @@ function limpiarCampos() {
     inputNombre.value = '';
     inputCorreo.value = '';
     inputMensaje.value = '';
+
+    inputNombre.textContent = '';
+    inputCorreo.textContent = '';
+    inputMensaje.textContent = '';
+
 }
