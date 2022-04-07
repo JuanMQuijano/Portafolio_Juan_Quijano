@@ -252,6 +252,7 @@ footer {
     }
     .navegacion {
         margin: 10rem auto;
+        justify-content: space-around;
     }
     .projects {
         margin-top: -1rem;
