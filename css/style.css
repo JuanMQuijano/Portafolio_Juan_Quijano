@@ -106,7 +106,7 @@ body {
 }
 
 .about__parrafo,
-.projects__parrafo {
+.projects__parrafo,.certificates__parrafo {
   margin-top: 2rem;
   font-size: 1.3rem;
   text-align: justify;
@@ -275,7 +275,7 @@ footer {
     text-align: center;
   }
   .about__parrafo,
-  .projects__parrafo {
+  .projects__parrafo,.certificates__parrafo {
     margin-top: 2rem;
     font-size: 1.5rem;
     text-align: justify;
@@ -323,7 +323,7 @@ footer {
     text-align: center;
   }
   .about__parrafo,
-  .projects__parrafo {
+  .projects__parrafo,.certificates__parrafo {
     margin-top: 2rem;
     font-size: 1.8rem;
     text-align: center;
