@@ -76,7 +76,7 @@ for(let i = 1; i <= 2; i++){
     imagen.innerHTML = `    
     <source srcset="media/c${i}.webp" type="image/webp">
 
-    <img loading="lazy" width="200" height="300" src="media/${i}.png" alt="Imagen Certificado">
+    <img loading="lazy" width="282" height="350" src="media/${i}.png" alt="Imagen Certificado">
     `;
 
     //Al hacer click en una imagen va a llamar a la función de mostrarImagen y la va a mostrar
