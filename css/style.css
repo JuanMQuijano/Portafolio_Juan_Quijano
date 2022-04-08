@@ -26,7 +26,7 @@ body {
 }
 
 .introduccion__texto {    
-    margin-top: 2rem;
+    margin-top: 2rem;    
     width: 80%;
     max-width: 30rem;    
     font-size: 1.3rem;
@@ -89,8 +89,8 @@ body {
 
 .about__parrafo,
 .projects__parrafo {
-    margin-top: 2rem;
-    font-size: 1.3rem;
+    margin-top: 2rem;    
+    font-size: 1.3rem;    
     text-align: justify;
 }
 
@@ -230,6 +230,8 @@ footer {
         margin-top: 2rem;
         font-size: 1.5rem;
         text-align: justify;
+        margin-left: auto;
+    margin-right: auto;    
     }
     .projects__list--li>a {
         font-size: 2rem;
@@ -267,7 +269,7 @@ footer {
     .projects__parrafo {
         margin-top: 2rem;
         font-size: 1.8rem;
-        text-align: justify;
+        text-align: center;    
     }
     .projects__list--li>a {
         font-size: 2rem;
