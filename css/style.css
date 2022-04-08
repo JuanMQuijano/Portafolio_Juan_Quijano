@@ -83,13 +83,14 @@ body {
 
 .imgContainer{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;    
+    margin: 0 auto;
     gap: 2rem;
 }
 
 .imgContainer--img1,.imgContainer--img2{
-    width: auto;
-    height: 250px;
+    width: 100%;
+    height: 350px;
 }
 
 .about__titulo,
