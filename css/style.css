@@ -348,3 +348,7 @@ footer {
     font-size: 2rem;
   }
 }
+
+.imgContainer--img{
+  cursor: pointer;
+}
