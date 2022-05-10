@@ -349,6 +349,6 @@ footer {
   }
 }
 
-.imgContainer--img{
+.imgContainer--img,.about{
   cursor: zoom-in;
 }
