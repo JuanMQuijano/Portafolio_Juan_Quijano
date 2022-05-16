@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Juan Manuel Quijano" />
+    <meta name="keywords" content="PORTAFOLIO JS HTML CSS JUAN QUIJANO" />
+    <title>Portafolio - Juan Quijano</title>
+    <link rel="stylesheet" href="css/styleMinified.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="introduccion">
+      <p class="introduccion__texto">
+        ¡Hola! <br />
+        Mi nombre es Juan Quijano, nací en España, pero crecí en Colombia,
+        actualmente (2022) tengo 21 años y soy estudiante de ingeniería
+        informática en la Institución Universitaria Colegio Mayor del Cauca, en
+        el año 2021 participé en el diplomado de Misión TIC en la Universidad de
+        Antioquia con énfasis en desarrollo web impulsado por el gobierno
+        nacional, si quieres ponerte en contacto conmigo te invito a que llenes
+        el formulario que encontraras en la parte inferior de esta página web.
+        <br />
+        ¡Hasta pronto!
+      </p>
+      <div class="introduccion__imagen"></div>
+    </div>
+
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="#about">¡About Me!</a>
+      <a class="navegacion__enlace" href="#projects">¡Projects!</a>
+      <a class="navegacion__enlace" href="#form">¡Get In Touch!</a>
+    </nav>
+
+    <main>
+      <div class="aboutPro">
+        <section class="about" id="about">
+          <h1 class="about__titulo">¡About Me!</h1>
+          <p class="about__parrafo">
+            Apasionado por el desarrollo de software y el desarrollo web, fiel
+            creyente del nunca parar de aprender.<br />
+            <br />
+            Conocimiento en lenguajes como: Java, PHP, SQL, JavaScript.
+            <br />
+            <br />
+            Conocimiento en HTML5, CSS3, bootstrap.
+          </p>
+        </section>
+
+        <section class="projects" id="projects">
+          <h1 class="projects__titulo">¡Projects!</h1>
+          <p class="projects__parrafo">
+            En esta sección podrás conocer un poco más de mis proyectos, te
+            invito a que navegues por las siguientes páginas web que he
+            desarrollado haciendo uso de las mejores practicas:
+          </p>
+          <ol class="projects__list">
+            <li class="projects__list--li">
+              <a
+                target="_blank"
+                href="https://eager-clarke-9c3a8e.netlify.app/index.html"
+                >Blog de Café☕</a
+              >
+            </li>
+            <li class="projects__list--li">
+              <a target="_blank" href="https://boisterous-79047b.netlify.app/"
+                >ROCK & EDM Festival🤘🏻</a
+              >
+            </li>
+          </ol>
+        </section>
+      </div>
+
+      <section class="certificates">
+        <h1 class="certificates__titulo">¡Certificates!</h1>
+        <p class="certificates__parrafo">¡Haz click en alguno de los certificados para verlo mejor!</p>
+
+        <div class="imgContainer">       
+        </div>
+      </section>
+
+      <section class="contenedorFormulario" id="form">
+        <h1 class="contenedorFormulario__titulo">¡Get In Touch!</h1>
+
+        <form class="formulario">
+          <div class="separador">
+            <label class="formulario__etiqueta" for="Nombre"
+              >Nombre Completo:</label
+            >
+            <input
+              id="Nombre"
+              class="formulario__input"
+              type="text"
+              placeholder="Aquí tú Nombre"
+              required
+            />
+          </div>
+          <div class="separador">
+            <label class="formulario__etiqueta separador" for="Correo"
+              >Correo:</label
+            >
+            <input
+              id="Correo"
+              class="formulario__input"
+              type="email"
+              placeholder="Aquí tú Correo"
+              required
+            />
+          </div>
+          <div class="formulario__textarea--contenedor">
+            <label for="Mensaje" class="formulario__etiqueta">Mensaje:</label>
+            <textarea
+              id="Mensaje"
+              class="formulario__textarea"
+              name="mensaje"
+              rows="5"
+              placeholder="Aquí tú Mensaje"
+              required
+            ></textarea>
+          </div>
+          <input class="formulario__boton" type="button" value="Envíar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer__lista">
+        <li>
+          <a href="https://www.instagram.com/juan.quijano_/" target="_blank">
+            <img src="/media/icon-instagram.webp" alt="Logo Instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/Juan.QuijanoQ" target="_blank">
+            <img src="/media/icon-facebook.webp" alt="Logo Facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/manuel202501" target="_blank">
+            <img src="/media/icon-twitter.webp" alt="Logo Twitter" />
+          </a>
+        </li>
+      </ul>
+      <p>Desarrollado por Juan Quijano - Todos los derechos reservados 2022</p>
+    </footer>
+
+    <script src="JS/appMinified.js"></script>
+  </body>
+</html>
