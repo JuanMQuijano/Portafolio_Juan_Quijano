@@ -1,1 +1,6 @@
-/index
+/templates/index
+/templates/index.php
+/templates/heading
+/templates/heading.php
+/templates/footer
+/templates/footer.php
